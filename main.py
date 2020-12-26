@@ -17,11 +17,11 @@ def solution(lt=list):
         element=lt[0]
         for i in lst:
             if element>=i:
-                answer=True
+                x=True
             else:
-                answer=False
+                x=False
                 break
             element=i
         if answer:
             return answer
-        else: return  answer
+        else: return  x
